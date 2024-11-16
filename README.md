@@ -41,7 +41,7 @@ Test Accuracy: XX%
 
 Future Improvements
 
- Add data augmentation techniques
- Implement cross-validation
- Add visualization of results
- Deploy model as web application
+- Add data augmentation techniques
+- Implement cross-validation
+- Add visualization of results
+- Deploy model as web application
