@@ -10,19 +10,15 @@ A deep learning model built using TensorFlow/Keras to detect bone fractures in X
 - Transfer learning using Xception architecture
 - Custom model architecture with regularization
 
-## Requirements
-python
-tensorflow==2.x
-numpy
-pandas
-scikit-learn
-imbalanced-learn
-pillow
-opencv-python
+### Dataset
+This project uses X-ray images dataset which can be accessed through:
+- [bone fracture detection using x-rays]([[dataset_link](https://www.kaggle.com/datasets/vuppalaadithyasairam/bone-fracture-detection-using-xrays/data)])
+- Size: 183 MB
+- Classes: Fractured and Non-fractured X-rays
 
-Model Architecture
+### Model Architecture
 
-Base Model: Xception (pre-trained on ImageNet)
+Base Model: Xception (pre-trained on ImageNet) \n
 Additional layers:
 
 GaussianNoise (0.2)
@@ -33,11 +29,22 @@ Dropout (0.3)
 
 
 
-Results
+### Results
 
-Training Accuracy: XX%
-Validation Accuracy: XX%
-Test Accuracy: XX%
+Training Accuracy: 96.2%
+Validation Accuracy: 98.5%
+
+## Requirements
+python
+tensorflow==2.x
+numpy
+pandas
+scikit-learn
+imbalanced-learn
+pillow
+opencv-python
+
+
 
 Future Improvements
 
