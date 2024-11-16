@@ -11,8 +11,8 @@ A deep learning model built using TensorFlow/Keras to detect bone fractures in X
 - Custom model architecture with regularization
 
 ### Dataset
-This project uses X-ray images dataset which can be accessed through:
-- [bone fracture detection using x-rays]([[dataset_link](https://www.kaggle.com/datasets/vuppalaadithyasairam/bone-fracture-detection-using-xrays/data)])
+This project uses X-ray images dataset on kaggle which can be accessed through:
+- bone fracture detection using x-rays: https://www.kaggle.com/datasets/vuppalaadithyasairam/bone-fracture-detection-using-xrays/data
 - Size: 183 MB
 - Classes: Fractured and Non-fractured X-rays
 
