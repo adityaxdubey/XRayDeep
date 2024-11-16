@@ -18,7 +18,7 @@ This project uses X-ray images dataset on kaggle which can be accessed through:
 
 ### Model Architecture
 
-Base Model: Xception (pre-trained on ImageNet) \n
+Base Model: Xception (pre-trained on ImageNet)
 Additional layers:
 
 GaussianNoise (0.2)
